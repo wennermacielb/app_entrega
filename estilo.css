@@ -1,0 +1,63 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Centraliza e define largura do conteúdo principal */
+main.margem {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px auto; /* Centraliza e adiciona margem superior */
+    padding: 20px;
+    border: 1px solid #ddd; /* Borda leve para destacar o formulário */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Fundo claro para contraste */
+}
+
+/* Estilo do título */
+main h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #818181; 
+}
+
+/* Estilos dos labels */
+form label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilos dos campos de entrada */
+form input[type="text"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilos do botão de envio */
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b9fda;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
